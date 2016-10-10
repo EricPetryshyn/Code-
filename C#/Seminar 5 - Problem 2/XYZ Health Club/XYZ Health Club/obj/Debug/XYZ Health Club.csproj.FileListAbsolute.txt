@@ -1,0 +1,36 @@
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe.config
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Form1.resources
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Properties.Resources.resources
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csproj.GenerateResource.Cache
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.exe
+E:\C#\Seminar 3\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe.config
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.exe
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Form1.resources
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Properties.Resources.resources
+E:\C#\Seminar 4\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csproj.GenerateResource.Cache
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe.config
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.exe
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Form1.resources
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Properties.Resources.resources
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csproj.GenerateResource.Cache
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe
+E:\C#\Seminar 5\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe.config
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.exe
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.exe
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\bin\Debug\XYZ Health Club.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Form1.resources
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ_Health_Club.Properties.Resources.resources
+E:\C#\Seminar 5\Seminar 5 - Problem 2\XYZ Health Club\XYZ Health Club\obj\Debug\XYZ Health Club.csproj.GenerateResource.Cache

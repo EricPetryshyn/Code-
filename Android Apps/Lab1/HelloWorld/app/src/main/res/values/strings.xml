@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="welcome">Welcome to Lab 1</string>
+    <string name="tr">Top Right</string>
+    <string name="tl">Top Left</string>
+    <string name="br">Bottom Right</string>
+    <string name="bl">Bottom Left</string>
+
+</resources>

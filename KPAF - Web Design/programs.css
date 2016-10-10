@@ -1,0 +1,40 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Eric Petryshyn
+   Date:   Feb 1, 2016
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+table.programs
+{
+	width:100%;
+	border:2px;
+	border-style:solid;
+	border-color:black;
+	border-collapse:collapse;
+	font-family:Arial,Verdanna,sans-serif;
+}
+
+table.programs caption
+{
+	text-align:border-left;
+	font-size:0.8em;
+}
+
+table.programs,th,td
+{
+	font-size:0.7em;
+	text-align:top;
+	text-transform:vertical-align;
+	border:1px;
+	border-color:gray;
+	border-style:solid;
+	padding:2px;
+}

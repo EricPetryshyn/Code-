@@ -1,0 +1,3 @@
+Name: Eric Petryshyn,Address: 754 Sicamore Drive,Membership: Single's Membership,Monthly Fee: $30.00,
+Name: Wayne Babinchuk,Address: somewhere,Membership: Couple's Membership,Monthly Fee: $65.00,
+Name: Billy Goat,Address: farm land,Membership: Family Membership,Monthly Fee: $105.00,

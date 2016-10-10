@@ -1,0 +1,46 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Additional Project
+
+   Texas Medical Center Departments Style Sheet
+
+   Filename:         depts.css
+   Supporting Files: 
+
+*/
+
+
+div#info {
+
+   display: block;
+   width: 70%;
+   float: left;
+   margin-right: 15%;
+   margin-left:  15%
+}
+
+div#dept_summary {
+   display: block;
+   width: 55%;
+   float: center;
+}
+
+ul {
+   list-style-type: none;
+   padding-left: 0px;
+   margin-left: 0px;
+}
+
+li {
+   font-size: 16px;
+}
+
+p {
+   font-size: 20px;
+}
+
+img {
+   
+   width: 70%;
+}

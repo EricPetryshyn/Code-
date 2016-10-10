@@ -1,0 +1,28 @@
+\\mytru_vfiler1\home\p\t00229613\visual studio 2012\Projects\Name Loader\Name Loader\bin\Debug\Name Loader.exe.config
+E:\C#\Seminar 4\Name Loader\Name Loader\bin\Debug\Name Loader.exe.config
+E:\C#\Seminar 4\Name Loader\Name Loader\bin\Debug\Name Loader.exe
+E:\C#\Seminar 4\Name Loader\Name Loader\bin\Debug\Name Loader.pdb
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name_Loader.Form1.resources
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name_Loader.Properties.Resources.resources
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name Loader.csproj.GenerateResource.Cache
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name Loader.exe
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name Loader.pdb
+E:\C#\Seminar 4\Name Loader\Name Loader\obj\Debug\Name Loader.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 5\Name Loader\Name Loader\bin\Debug\Name Loader.exe.config
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name Loader.exe
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name Loader.pdb
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name Loader.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name_Loader.Form1.resources
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name_Loader.Properties.Resources.resources
+E:\C#\Seminar 5\Name Loader\Name Loader\obj\Debug\Name Loader.csproj.GenerateResource.Cache
+E:\C#\Seminar 5\Name Loader\Name Loader\bin\Debug\Name Loader.exe
+E:\C#\Seminar 5\Name Loader\Name Loader\bin\Debug\Name Loader.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\bin\Debug\Name Loader.exe.config
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name Loader.exe
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name Loader.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\bin\Debug\Name Loader.exe
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\bin\Debug\Name Loader.pdb
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name Loader.csprojResolveAssemblyReference.cache
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name_Loader.Form1.resources
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name_Loader.Properties.Resources.resources
+E:\C#\Seminar 5\Seminar 5 - Problem 1\Name Loader\Name Loader\obj\Debug\Name Loader.csproj.GenerateResource.Cache

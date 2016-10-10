@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 8
+      Additional Project
+
+      Texas Medical Center Home Page
+
+
+      Filename:         tmc.htm
+      Supporting files: about.htm, emergency.htm, imaging.htm, obgyn.htm, surgery.htm
+      					er.jpg, gray.png, imaging.jpg, obgyn.jpg, surgery.jpg, tmcback.jpg
+      					hospview.png, tmchead.png, depts.css, modernizr-1.5.js, tmccbase.css,
+                        tmceffects.css, tmclayout.css, tmcmobile.css,
+
+   -->
+
+      <meta charset="UTF-8" />
+
+      <title>Texas Medical Center</title>
+      <script src="modernizr-1.5.js"></script>
+
+      <link href="tmcbase.css" rel="stylesheet" />
+	  <link href="tmclayout.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  <link href="tmceffects.css" rel="stylesheet" media="screen and (min-width: 501px)" />
+	  <!--[if lt IE 9]>
+         <link href="tmclayout.css" rel="stylesheet" media="screen" />
+         <link href="tmceffects.css" rel="stylesheet" media="screen" />
+      <![endif]-->
+	  <link href="tmcmobile.css" rel="stylesheet" media="only screen and (max-width: 500px)" />
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+   </head>
+
+   <body>
+
+      <header>
+
+         <nav class="horizontal">
+            <ul>
+               <li><a href="tmc.htm">Home</a></li>
+               <li><a href="about.htm">About Us</a></li>
+               <li><a href="emergency.htm">Emergency</a></li>
+               <li><a href="obgyn.htm">OB-Gyn</a></li>
+               <li><a href="surgery.htm">Surgery</a></li>
+               <li><a href="imaging.htm">Medical Imaging</a></li>
+            </ul>
+         </nav>
+
+		<img src="Images/tmchead.png" align="center" alt="Texas Medical Center" />
+      </header>
+
+      <nav id="depts" class="vertical">
+         <h1>Texas Medical Center</h1>
+         <ul>
+            <li id="d1"><a href="tmc.htm">Home</a></li>
+            <li id="d2"><a href="about.htm">About Us</a></li>
+            <li id="d3"><a href="emergency.htm">Emergency</a></li>
+            <li id="d4"><a href="obgyn.htm">OB-Gyn</a></li>
+            <li id="d5"><a href="surgery.htm">Surgery</a></li>
+            <li id="d6"><a href="imaging.htm">Medical Imaging</a></li>
+
+         </ul>
+      </nav>
+
+      <section id="main">
+         <p>Texas Medical Center is a state of the art medical facility located in the north Texas area.  Our facility boasts the finest in accomodations for your comfort and safety during your hospitalization.
+         </p>
+         <p>During your stay, be prepared to be pampered by our excellent staff!  Our staff is determined to ensure your happiness, and will accomodate all your wishes to ensure that you have a pleasant, comfortable experience, regardless of the reason for your visit. </p>
+         <p>You will stay in one of our spacious and luxurious rooms at the Medical Center. You will be served the highest quality food from our dining facility that is prepared for you by world class chefs. If possible, you will enjoy your meals in our first class dining room, and receive the finest in service from our dining staff.
+         </p>
+         <p>Texas Medical Center offers quick and easy access to nearby lodging for your family that requires outside lodging.
+
+         </p>
+
+         <h2>Cardiac Care and Rehabitation Center</h2>
+         <p>Texas Medical Center contains a state of the art cardiac care and rehabilitation center.  Top of the line equipment is provided for clients that their physicians presibe cardiac exercise and rehabilitation.  Clients will be able to continue their rehab program at a special reduced rate after completion of the rehab prescribed by their physician.
+         </p>
+
+         <h2>Phlebotamy</h2>
+         <p>Need laboratory work completed?  Texas Medical Center has a fully staff and complete lab to conduct any and all test ordered by your physician.
+         </p>
+      </section>
+
+      <aside>
+         <div id="div1">
+            <h1>Medical Center</h1>
+            <p>Our institution provides the best in care from a staff of the area's finest medical personnel.
+            </p>
+         </div>
+         <div id="div2">
+            <h1>Emergency Room</h1>
+            <p>Fast medical care from a ER staff that understands your concerns and works hard to stabilize your situation.
+            </p>
+         </div>
+         <div id="div3">
+            <h1>Medical Imaging</h1>
+            <p>State of the art technology is used to provide the medical staff with the ultimate aid in determining diagnosis.
+            </p>
+         </div>
+         <div id="div4">
+            <h1>OB-Gyn</h1>
+            <p>Neo-natal care is provided for the precious gifts that you have received.  You can rest easy knowing the expert care your bundles of joy receive.
+            </p>
+         </div>
+      </aside>
+
+      <footer>
+         Texas Medical Center &bull;
+         531 Doctors Lane, Gainesville, Texas 76241 &bull;
+         (940) 555-3177
+      </footer>
+
+   </body>
+
+</html>
+

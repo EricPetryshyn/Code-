@@ -1,0 +1,66 @@
+/* Ttile: Comp 2230 Seminar 2
+ * File: LinkedStackDriver.java
+ * Purpose: To use a linked stack to solve a problem checking
+ *          if parenthesis are balanced.
+ * 
+ * Author: Eric Petryshyn
+ * Student ID: T00229613
+ * Date: Feb 2, 2016
+ */
+
+import java.util.Scanner;
+
+public class LinkedStackDriver{
+  
+  public static void main(String args[]){
+
+    Scanner scan = new Scanner(System.in);
+    LinkedStack<Character> parenthesis = new LinkedStack<Character>();
+    
+    int count = 0;
+    boolean balance = true;
+    
+    System.out.println("Enter a string of parenthesis to check if they are balanced:");
+    String input = scan.nextLine();
+    
+    while(count < input.length()){
+      char temp = input.charAt(count);
+      char temp2;
+      // Puts left parenthesis in linked stack
+      if((temp=='(')||(temp=='[')||(temp=='{')){
+        parenthesis.push(temp);
+        System.out.println(parenthesis);
+      }
+      // Finds out if there are too many left parenthesis
+      if((temp==')')||(temp==']')||(temp=='}')){
+        if(parenthesis.isEmpty()){
+          System.out.println("The input '" + input + "' has too many left parenthesis.");
+          balance = false;
+          break;
+        }
+        // Finds out if parenthesis are out of order
+        else{
+          temp2 = parenthesis.pop();
+          System.out.println(parenthesis);
+          if (!((temp==')'&&temp2=='(')||(temp==']'&&temp2=='[')||(temp=='}'&&temp2=='{'))){
+            System.out.println("The parenthesis in '" + input + "' are out of order.");
+            balance = false;
+            break;
+          }
+        }
+      }
+      count++;
+    }
+ 
+    if(balance){
+      // Finds out if parenthesis are balanced
+      if(parenthesis.isEmpty()){
+        System.out.println("The input '" + input + "' is properly balanced.");
+      }
+      // Prints if there are too many right parenthesis
+      else{
+        System.out.println("The input '" + input + "' has too many right parenthesis.");
+      }
+    }
+  }
+}

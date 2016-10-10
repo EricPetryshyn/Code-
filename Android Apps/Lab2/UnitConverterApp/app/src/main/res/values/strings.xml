@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Unit Converter App</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="value">Value</string>
+    <string name="convert">Convert</string>
+    <string name="results">Results</string>
+    <string name="enter">Enter a Value</string>
+    <string-array name="temperature_array">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+</resources>

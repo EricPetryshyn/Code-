@@ -1,0 +1,41 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 2
+
+   Spice Bowl Sheet
+   Author: Rita Sato
+   Date:   3/1/2014
+
+   Filename:         sb.css
+   Supporting Files: 
+
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+
+/* Set the default page element styles */
+
+
+
+*{
+	margin: 0px; padding: 0px;
+    line-height: 1.2em;
+    color: black;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif
+}
+
+body{
+	background: white url(sbback.png) repeat-y;
+	margin:300px;
+}
+
+
+
+
