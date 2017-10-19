@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="name">Create a New User Name Here:</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="one">Stwitch to One Player</string>
+    <string name="two">Stwitch to Two Player</string>
+    <string name="back">Back</string>
+
+    <string-array name="menu">
+        <item>Play Game - Single Player</item>
+        <item>Play Game - Two Player</item>
+        <item>Create New Player</item>
+        <item>Statistics</item>
+    </string-array>
+</resources>

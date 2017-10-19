@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t00229613.tictactoe.EnterNamesActivity"
+    android:background="@drawable/bgstats"
+    android:orientation="vertical">
+    <!-- Background taken from http://all-free-download.com/free-vector/download/abstract-white-background_266417.html -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:id="@+id/textview02"
+        android:text="@string/name"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:id="@+id/editText01"
+        android:layout_gravity="center_vertical"
+        android:hint="Enter Your Name"
+        android:maxLength="10"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="71dp"
+        android:text="@string/save"
+        android:id="@+id/button01"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/button_select" />
+</LinearLayout>

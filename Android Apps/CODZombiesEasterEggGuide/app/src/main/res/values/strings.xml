@@ -1,0 +1,499 @@
+<resources>
+    <!-- Descriptions for Zetsubou No Shima, Gorod Krovi, and Revelations taken from the following cites: -->
+
+    <!-- https://gamerant.com/black-ops-3-zetsubou-no-shima-easter-egg-guide/ -->
+    <!-- http://opshead.com/article/886/black-ops-3-zetsubou-no-shima-all-gas-mask-parts -->
+    <!-- http://www.accelerated-ideas.com/news/zombies-gorod-krovi-all-easter-eggs-steps.aspx -->
+    <!-- http://gameranx.com/features/id/73828/article/black-ops-3-revelations-easter-eggs-guide-step-by-step-tutorial/ -->
+
+    <!-- Music taken from youtube, background images taken from Google images -->
+
+    <string name="app_name">COD Zombies Easter Egg Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="symbols">Symbol Marker</string>
+    <string name="symbols_des">Click on the Symbols you wish to remember for the Shadows of Evil Easter Egg Step 3</string>
+
+    <string name="title">BO3 Zombies Easter Egg Guide</string>
+    <string name="title1">Shadows of Evil</string>
+    <string name="title2">The Giant</string>
+    <string name="title3">Der Eisendrache</string>
+    <string name="title4">Zetsubou No Shima</string>
+    <string name="title5">Gorod Krovi</string>
+    <string name="title6">Revelations</string>
+    <string name="title11">Complete All Rituals</string>
+    <string name="title12">Open Pack-A-Punch</string>
+    <string name="title13">Obtain Apothican Sword</string>
+    <string name="title14">Upgrade Apothican Sword</string>
+    <string name="title15">Nero\'s Lair</string>
+    <string name="title16">Flag Running</string>
+    <string name="title17">Sacrifice Shadow Man</string>
+    <string name="title18">Apocalypse Adverted</string>
+    <string name="title19">Play Hide And Seek</string>
+    <string name="title20">Grab Annialator Pistol</string>
+    <string name="title21">Feed Dragons</string>
+    <string name="title22">Obtain Bow</string>
+    <string name="title23">Obtain Upgraded Bow(s)</string>
+    <string name="title24">Find Electrified Items</string>
+    <string name="title25">Teleport</string>
+    <string name="title26">Open Safe and Input Fuses</string>
+    <string name="title27">Play Simon Says</string>
+    <string name="title28">Shoot Down Dempsey</string>
+    <string name="title29">Teloport Again</string>
+    <string name="title30">Awaken Keeper</string>
+    <string name="title31">Enter Boss Fight</string>
+    <string name="title32">Blow Up Moon</string>
+    <string name="title33">Build KT-4</string>
+    <string name="title34">Build Gas Mask</string>
+    <string name="title35">Build Shield</string>
+    <string name="title36">Complete Trials</string>
+    <string name="title37">Obtain Skull of Nan Spwa</string>
+    <string name="title38">Open Secret Room</string>
+    <string name="title39">Obtain Cogs</string>
+    <string name="title40">Upgrade KT-4</string>
+    <string name="title41">Enter Boss Fight</string>
+    <string name="title43">Get Network Circuits</string>
+    <string name="title44">Get Dragon Egg</string>
+    <string name="title45">Valve Puzzle</string>
+    <string name="title46">Complete Egg Challenges</string>
+    <string name="title47">Obtain Gauntlet of Siegfried</string>
+    <string name="title48">Collect Trophies</string>
+    <string name="title49">Enter Password</string>
+    <string name="title50">Sophia Challenges</string>
+    <string name="title51">Power Core To Nikolai</string>
+    <string name="title52">Enter Boss Fight</string>
+    <string name="title53">Shoot Gravestones</string>
+    <string name="title54">Summon Keeper Protector</string>
+    <string name="title55">Complete Keeper-Stone Ritual</string>
+    <string name="title56">L\'il Arnies</string>
+    <string name="title57">Collect Skeleton Parts</string>
+    <string name="title58">Teleport to Kronorium</string>
+    <string name="title59">Complete Final Ritual</string>
+    <string name="title60">Fight Apothicon</string>
+    <string name="title61">The Summoning Key</string>
+    <string name="title62">The End</string>
+
+
+    <string-array name="menu">
+        <item>Shadows of Evil</item>
+        <item>The Giant</item>
+        <item>Der Eisendrache</item>
+        <item>Zetsubou No Shima</item>
+        <item>Gorod Krovi</item>
+        <item>Revelations</item>
+    </string-array>
+
+    <string-array name="menu1">
+        <item>Step 1 - Complete All Rituals</item>
+        <item>Step 2 - Open Pack-A-Punch</item>
+        <item>Step 3 - Obtain Apothican Sword</item>
+        <item>Step 4 - Upgrade Apothican Sword</item>
+        <item>Step 5 - Nero\'s Lair</item>
+        <item>Step 6 - Flag Running</item>
+        <item>Step 7 - Sacrifice Shadow Man</item>
+        <item>Step 8 - Apocalypse Adverted</item>
+        <item>Symbols To Use</item>
+    </string-array>
+    <string-array name="menu2">
+        <item>Step 1 - Open Pack-A-Punch</item>
+        <item>Step 2 - Play Hide And Seek</item>
+        <item>Step 3 - Grab Annialator Pistol</item>
+    </string-array>
+    <string-array name="menu3">
+        <item>Step 1 - Feed Dragons</item>
+        <item>Step 2 - Obtain Bow</item>
+        <item>Step 3 - Obtain Ugraded Bow(s)</item>
+        <item>Step 4 - Find Electified Items</item>
+        <item>Step 5 - Teleport</item>
+        <item>Step 6 - Open Safe and Input Fuses</item>
+        <item>Step 7 - Play Simon Says</item>
+        <item>Step 8 - Shoot Down Dempsey</item>
+        <item>Step 9 - Teleport Again</item>
+        <item>Step 10 - Awaken Keeper</item>
+        <item>Step 11 - Enter Boss Fight</item>
+        <item>Step 12 - Blow Up The Moon</item>
+    </string-array>
+    <string-array name="menu4">
+        <item>Step 1 - Build KT-4</item>
+        <item>Step 2 - Build Gas Mask</item>
+        <item>Step 3 - Build Shield</item>
+        <item>Step 4 - Complete Trials</item>
+        <item>Step 5 - Obtain Skull of Nan Spwa</item>
+        <item>Step 6 - Open Secret Room</item>
+        <item>Step 7 - Obtain Cogs</item>
+        <item>Step 8 - Upgrade KT-4</item>
+        <item>Step 9 - Enter Boss Fight</item>
+    </string-array>
+    <string-array name="menu5">
+        <item>Step 1 - Get Network Circuits</item>
+        <item>Step 2 - Get Dragon Egg</item>
+        <item>Step 3 - Valve Puzzle</item>
+        <item>Step 4 - Complete Egg Challenges</item>
+        <item>Step 5 - Obtain Gauntlet of Siegfried</item>
+        <item>Step 6 - Collect Trophies</item>
+        <item>Step 7 - Enter Password</item>
+        <item>Step 8 - Sophia Challenges</item>
+        <item>Step 9 - Power Core To Nikolai</item>
+        <item>Step 10 - Enter Boss Fight</item>
+    </string-array>
+    <string-array name="menu6">
+        <item>Step 1 - Shoot Gravestones</item>
+        <item>Step 2 - Summon Keeper Protector</item>
+        <item>Step 3 - Complete Keeper-Stone Ritual</item>
+        <item>Step 4 - L\'il Arnies</item>
+        <item>Step 5 - Collect Skeleton Parts</item>
+        <item>Step 6 - Teleport to Kronorium</item>
+        <item>Step 7 - Complete Final Ritual</item>
+        <item>Step 8 - Fight Apothicon</item>
+        <item>Step 9 - The Summoning Key</item>
+        <item>Step 10 - The End</item>
+    </string-array>
+
+    <string name="des1">Note that most of these easter egg steps can be completed on solo, but not the whole easter egg. There are 4 Rituals. To start, one player must open the first door. After that, one of the players must go into beast mode by interacting with one of the purple fountains on the map, smash the crate in the starting room, run outside and zap the control panel for the crane, and then
+grapple up to Nero\'s Lair, run to the staircase, and zap the control panel for the stairs. One player must pick up the piece that fell from the crane and the summoning key from the starting room box, then at least one player must go up the stairs to Nero\'s Lair and start the
+first ritual. Note that all rituals should be done near the end of the wave, so that zombies aren\'t causing you trouble during the rituals. All four rituals are the same in the sense that creatures called the apothican servants start to spawn and you are locked in the ritual room until the ritual is finished. Your goal at this point is to survive until the ritual finishes
+on it\'s own. If possible avoid wasting your ammo. Killing the creatures does not speed up the ritual and the creatures will just respawn, so don\'t shoot unless they get in your way. Just run loops around the room until the ritual
+is completed. The more players that participate in the ritual, the faster it is completed, but the more chaotic it gets. After the first ritual is complete grab the worm that appears above the summoning table. Afterwards choose one
+of the 3 paths ahead of you. All three of the remaining rituals must be completed. If you choose the path to the canal district, someone must use beast mode to smash the box inside the canals, zap the control panel in the canals,
+grapple to the police station, run down to the first floor and zap the control panel for the stairs. Then someone must pick up the ritual piece that was in the box down in the canals and bring it to the ritual table in the police
+station. Star and survive the rituals, then pick up the gateworm. If you choose the path of the waterfront district, someone must go into beast mode, grapple to the box in the up high, knock it down, then run to the boxing gym and smash open the door.
+Someone must then pick up the ritual piece that was in the fallen box and run it over to the ritual table in the boxing gym. Start and survive the ritual, then pick up the gateworm. If you choose the path of the footlight district, some must go into beast
+mode, grapple to the theatre roof, zap the control box on te rooftop, grapple to the balcony path, run to the box suspended on the second story, and knock it down. Then someone must grab the ritual piece from the fallen box and bring
+it to the ritual table in the theatre. Start and survive the ritual, then pick up the gateworm. Be warned that regardless of the order you chose to complete the rituals, after your second and fourth ritual is completed a Marwa will spawn in. It is highly
+recommended that you deal with him quickly. Once all 4 rituals are complete, you are finished the first step.  </string>
+    <string name="des2">First make sure you have completed step 1. Then head to the basement of the map through one of the three portals located on the map: behind the door down in the canals, behind the door in the narrow alley in the waterfront district,
+and behind the door in the narrow alley in the footlight district. These doors are opened by breaking them down while in beast mode. After you have reached the basement walk over to the far wall where four symbols should start to
+glow, representing, the four rituals you have completed. Soon afterwards the wall will break and a new room has opened up. Enter the room and place the 4 worms you have gathered on their pedastals. Now go over to the ritual table
+at the entrance to the room and place the summoning key, starting yet another ritual. Survive the ritual the same way you have done for the past rituals. Once the ritual is complete, a Margwa will spawn in and the pack-a-punch will
+be open. Defeat the Margwa to make things easier on yourself.</string>
+    <string name="des3">To obtain the apothican sword, ride the tram on the map and spot the 3 glowing red symbols around the map by looking out the windows of the tram. You can know the locations of the symbols and which window to look
+    through by looking at a map that can be found in every tram station. The question marks \'?\' represent the symbols, and then it\'s just a matter of knowing your districts to plan your route. Use the symbol marker page on this app to
+    help avoid the memorization process. Once you know all 3 symbols, go to the basement and then enter beast mode. You will notice that the nearby wall will have a bunch of symbols on it. Zap the 3 symbols you saw to reveal a pedestal
+    with the apothican eggs on it. Pick up an egg and place it on the statue in the basement. Now kill zombies near the statue until the egg stops collecting zombie souls. Now pick up your egg and repeat this process at the three other
+    statues on the map. There is one near the police station in the canal district, one upstairs in the waterfront district, and one in the first section of the footlight district. Once all 4 statue rituals are complete, return to the
+    basement where you first picked up the egg. Place it back, then interact with the pedestal again to retrieve the apothican sword.</string>
+    <string name="des4">To obtain the upgraded apothican sword, first look at which character you are. The 4 main ritual sites on the map each correspond to one of the four characters. The women must go to the theatre, the cop must
+    go to the police station, the boxer must go to the boxing gym, and the magician must go to Nero\'s Lair. If you are at the right ritual spot, you will see a ghost above the ritual table holding out an egg to the player. Pick it up.
+    Now in front of each ritual site building will be a glowing red circle. Near the end of a wave, to make things easier, interact with one of the glowing red circles. The first circle you choose will spawn in one Margwa, which the player
+    must kill. The other circles will each spawn in two Margwas to kill. Once the spawned in Margas are killed, finish the wave, then visit a new circle next wave. Only one circle per player can be completed per wave, unless one player
+    is willing to purposefully go down during a circle ritual. This will allow the others to do another circle ritual that wave, and the player who went down can try again assuming that they were revived. Once a player has completed all four circle
+    rituals, they can return to their specific ritual site to recieve the upgraded apothican sword from the ghost.</string>
+    <string name="des5">Once every player has the upgraded apothican sword and the pack-a-punch has been opened, you can start this step. Go to Nero\'s Lair and interact with a book laying on the ground near the bookshelf. The book should momentarily
+    begin to hover before falling back to the ground.</string>
+    <string name="des6">You should now see a flag in the center of the basement when you go down there if steps 1-5 have been completed successfully. One player must pick of the flag and run it upstairs. Place the flag on the nearest glowing purple spot.
+    During this step, all players must protect the flag from an endless spawn of rolling creatures, while also shoot at the shadow man whenever he appears. One hit from the shadow man will instantly break the flag. The flag can take a few
+    hits from te rolling creatures though. After a while the flag will make a \'ding\' noise. Pick it up again and run to the next glowing purple spot. Protect it until you hear the \'ding\' noise again. Pick the flag up and grab the max ammo
+    powerup. Place the flag down on the next spot and protect again. After the last \'ding\', run the flag up to Nero\'s Lair and plant the flag on the ritual table. This must be done for the other three ritual sites as well, but only one can be done
+    per wave. Every second purple spot drops a max ammo, so don\'t worry about conserving ammo. You\'ll never win like that. Once the flag has been brought to all four ritual sites, move on the step 7.</string>
+    <string name="des7">To sacrifice the shadow man, go to the pack-a-punch room where the shadow man is, surrounded by a protective barrier. Interact with all ghosts that are now in the room, where the gateworms were placed earlier. The ghosts will then
+    destroy the shadow man\'s protective barrier. This is everyone\'s chance to shoot at the shadow man. When he is being shot, he will teleport around the room. When he appears above the ritual table, someone must interact with the table to sacrifice
+    the shadow man. This whole step must be done as quick as possible or the shadow man will return to his original position with his protective barrier back up and a Margwa will spawn in.</string>
+    <string name="des8">This step is only made available on 4 player mode. The instant the shadow man is sacrificed, a giant gateworm will appear on the ritual table, Margwas start spawning in, and the player needs to occasionally walk through white orbs
+    scattered around the map to cleanse them from a curse that will kill them. Kill Margwas and stay alive until you find a fountain that allows you to turn into beast mode. Once all 4 players are in beast mode, one player must go to each tram station and the
+    last person must go to the cross section. The three players at the tram stations must zap a small control box at the same time to make the tram zoom off at full speed. As the train is reaching the cross section, the other player will zap a control box nearby
+    to launch the train into the giant octopus in the sky. Congratulations, you have now completed the Shadows of Evil Easter Egg!</string>
+
+    <string name="des9">To open pack-a-punch, there are three teleporters that must be linked. Their locations are: the second floor on the right side of the map, the far back of the map, and the left side of the map heading
+    somewhat behind the starting room location. When you find a teleporter, interact with it to start the linking process. You will notice a timer on the top of your screen. Run to the pad in the starting room and interact with it
+    before the timer runs out to link the teleporter. Do this for all three teleporter locations to unlock the pack-a-punch in the starting room.</string>
+    <string name="des10">At least one person needs a pack-a-punched gun for this step. When in the starting room go out the door to the right them head to the barricade on the right hand side. Look for a bucket on the other
+    side of the barricade and shoot it with a pack-a-punched weapon. You will hear a quote about playing hide a seek. Now there are three teddy bears to shoot hidden across the map. Head to the teleporter room nearest
+    your current location and look inside the furnace for the first teddy bear. The second is in the teleporter room on the second floor. You will find it inside the left container of water. The last teddy bear can be found
+    if you head to the outdoor area just before the furthest back teleporter. Look to your left and up. On one of the alley staircase railings is the last teddy bear. After all three teddy bears have been shot, go to step 3.</string>
+    <string name="des11">From the starting room location head through the door on the right and into the building before you. Head to the back of the first floor of the building and locate the big furnace. Inside is the annailator
+    pistol. Pick it up to complete the easter egg. Don\'t worry, it does not replace any of your current weapons.</string>
+    <string name="des12">There are three dragon statues in the map that must be fed zombies until they are satisfied and crumble away. From the starting room, head out through the right door, and open the next door as well.
+    In this courtyard is the first dragon statue. Kill zombies near it until it crumbles away. Next, make your way to the control room to find the second dragon. After that dragon is fed the
+    third and final dragon can be found downstairs next to the miniature pyramid. The dragons can only eat one zombie at a time, so if you can, run around with the zombies and only kill one at a time, and wait until the dragon
+    is finished with its current zombie before killing another one. Once all three dragons have been fed, move on to step 2.</string>
+    <string name="des13">Go midway up the stairs connecting the control room and the downstairs area. You will see a bow there. Pick it up, but be warned that it will replace one of your weapons.</string>
+    <string name="des14">There are four different elemental bows. If you are playing solo you only need to choose to get one upgraded bow. For 2-4 player games, you will need all four bows. \n\nTo obtain
+    the wolf bow, to start there is 4 paintings, one in the control room, one in the tower, one under the tower, and one in the hallway near the center of the map. When you interact with one of these painting
+    you will notice a green wolf-shaped symbol light up. If it stays lit, you know it is the first picture you need for the order. Find the correct sequence to interact with the paintings. Once all four
+    painting have permanently been lit up, you will hear a wolf\'s howl. Head downstairs to see a light blue item on the ground. Pick it up for the wolf bow quest. now use the teleporter to transport to the missile launch zone. Head outside and turn 180 degrees around, then look up.
+    You should see a flag on the mountain. Shoot it with an arrow and pick up the capsule that falls down after hitting the flag. Now go back to the main part of the map and downstairs to the miniature pyramid.
+    Here there are four boxes. Locate the one with the symbol of a wolf and interact with it. A spirit wolf will appear, which you must now follow. The wolf will stop four times. The first three times he
+    will dig at the ground, meaning you must kill zombies near this spot. Once enough zombies have been killed he will dig an item up which you must pick up before following the wolf once more.
+    The fourth time the wolf stops, he will be next to a wall with a hole in it downstairs. Go near the pyramid and stand on the four plates nearby to activate anti-gravity. Use the anti-gravity to run
+    on the walls. While running on the wall, shoot an arrow into the hole in the wall. A platform will momentarily appear, which you must hop onto quickly. Now you can look into the hole and interact with
+    a skeleton inside which will give you the wolf arrow. Bring this to the wolf box near the pyramid and place it in the box. Now kill zombies near the box until the arrow starts to glow more than usual.
+    Pull out your bow and interact with the box. In a few seconds, interact with the box again to pick up the wolf bow. \n\nTo obtain the lightning bow, head to the death ray. Nearby is a wind antenna.
+    Shoot it and the quest for the lightning bow will appear. Pick it up. Next there are three bonfires that must be lit by shooting it with the bow. One can be seen from next to the tower, another can be seen from
+    the outdoor area right of the starting room, and the last one can be seen from the missile launch zone. Once all three are lit, head down to the pyramid area and activate anti-gravity. While anti-gravity
+    is active run a full lap along the walls without touching the ground. Next there are three urns on the map, which you must kill zombies next to. One is in the tower, another is on the second floor on the right side
+    of the map next to one jump pad in the area, and the last one is next to the teleporter at the missile launch zone. For each urn, you can tell when you have killed enough zombies near it, because
+    it will look like electricity is coming out of it. In each case, electrify an arrow, walk to the nearest bonfire, and shoot it with the electrified arrow. Once all three bonfires have been electrified,
+    return to where you first got the quest for the electric bow, and shoot the wind antenna again. The electric arrow will appear, which you will bring downstairs. Near the pyramid is a box with the symbol
+    of a tornado. Place the electric arrow there and kill zombies near the box until the arrow starts glowing more than usual. Place your bow on the box, then in a few seconds pick up the new
+    electric bow. \n\nTo obtain the void bow, go to the second floor near the jump pad and shoot the purple symbol on the wall. Pick up the void bow quest that falls from the wall. Now go under the tower on the map.
+    You will notice a glowing purple tile on the floor there. Kill one zombie with a melee over the tile for it to break, revealing an urn underneath. Interact with it to see it hover in the air
+    and you will hear three words. Head to the hallway and find the symbols that match up with the words. As an example, if the voice says \'house\', find the symbol of a house. Interact with these symbols to see three weirder looking symbols.
+    Now when you kill zombies there is a chance that they will drop purple symbols. When you find the symbols you need, return to underneath the tower and shoot the symbols that have appeared on the floor that correspond
+    with the symbols you needed to memorize. If you were right a voice will say \'that is my name\' and the void arrow will appear. Otherwise, the voice will say \'that is not my name\' and you should
+    momentarily leave the tower area or you will be killed. If at any point you need to hear the voice again with the three words you need to know,
+    shoot the floating urn with your bow. If you were successful, pick up the void arrow. Bring this downstairs and place it on the correct box near the pyramid. Kill zombies near the box until the
+    arrow starts glowing more than usual. Now put your bow on the box, and seconds later return to the box to obtain the void bow. \n\n To obtain the fire bow, Go to the top of the tower and shoot the orange
+    symbol on the wall. Pick up the fire bow quest that falls from the wall, then travel to the missile launch zone. Then wait until the missile is about to launch and hide indoors until it is over.
+    As soon as the doors open and you can get outside, run outside look to your right, and shoot the glowing orange spot to cause a mini explosion. Next there are three circles that must be shot while flying
+    in the air using the jump pads. These circles are clearly visible while in the air because they are glowing orange, but they are hard to hit, making this the trickiest bow to obtain. Once they are lit,
+    head to these circle on the map and kill zombies while standing inside these circle. You know when a circle is finished with because a burst of energy will shoot into the sky. Once all three circles are
+    finished, head back to the top of the tower and spin the cogs up there. It will reveal a symbol that represent one of three fireplaces around the map. Figure out which fireplace it corressponds to by
+        looking at the symbol inside the fireplaces. Their locations are: in the control room, in the bedroom, and on the second floor on the right hand side of the map. One of the three circles
+        on the map will also be glowing again. Basically, you have to start at the glowing circle and shoot arrows to create a path to the right fireplace. You get three shots. Where ever your arrow
+        lands, a marker will be placed which is where your next shot must be shot from. One the fireplace has been lit, head to the death ray and you will see a giant ball of fire hovering above it. Look at the ball of fire and
+    interact with it to receive the fire arrow. Bring the arrow downstairs and place it on the correct box near the pyramid. Kill zombies near it until it starts glowing more than usual. Place your bow on the
+    box, and seconds later pick up the fire bow.</string>
+    <string name="des15">One you have at least one elemental bow, go to the downstairs teleporter and shoot the orbs on top with the regular bow. Then pick up the upgraded bow and run around looking for
+    items on the map spewing with electricity. there are no spot downstairs where items are electrified. There will be three electrified item, but only one at a time. The possible locations are: the clock in control room,
+    the radio in control room, the clock on the second floor on the left hand side of the map, the phone in the power room, the globe in the bedroom, the crate near the jump pad on the right hand side of the
+    map, the car tire just below that area, or the radio next to quick revive in the starting room. You only have a limited amount of time to find all three electrified items. If you fail, you must wait
+    till next wave to try again.</string>
+    <string name="des16">If you were successful on step 4, every team member must go to the downstairs teleporter while the same wave is still ongoing. Teleport with everyone inside the teleporter.
+    You will be teleported back in time and see a scientist entering a code into the safe next to the teleporter. Remember the combination. Also quickly grab the fuse for the back of the death ray and
+    the capsule in the room. You will shortly return to the regularly scheduled program.</string>
+    <string name="des17">Go down to the safe next to the teleporter and enter the combination you learned last step. Grab the two fuses inside the safe and then head up to the death ray. Input the fuse
+    from the last step into the back of the death ray. Input the two fuses from the safe into the two death ray poles nearby. Now return to the death ray and flip the dial on the back to protect mode.</string>
+    <string name="des18">Two are two control panels that you must interact with Srprisingly neither of them are in the control room. One is just outside the tower and the other is down at the missile launch zone.
+    Press the controls on control panel to start simon says. Memorize the symbols that appear in the four screens briefly. Then the fifth screen will start showing symbols that you must interact with the proper screen
+    for the simon says game. If you mess up, you must play simon says on both control panels all over again.</string>
+    <string name="des19">Once you have finished simon says on both control panels, return to the death ray and flip the dial on the back to destroy. Press the big red button to shoot down a missile containing the character Tank Dempsey.
+    Next to the wreckage put up the artifact in the snow that looks sort of like handcuffs. (they aren\'t though)</string>
+    <string name="des20">Repeat the electrified items step again and teleport with the whole team again. This time when you go back in time, there is no scientist. Run to the far side of the room and interact
+    with the book on the left. This will open a box on the right side of the room. Grab the slate inside the box. Soon you will be teleported back.</string>
+    <string name="des21">Now head to place where you first got the original bow and insert the hanfcuff-like artifact into the coffin nearby. This will awaken th keeper which you must follow around.
+    Whenever the keeper stops a glowing circle will appear which you must kill zombies with your bow while standing inside of. If not playing solo, the glowing circles will glow a certain color, representing one
+    of the four upgraded bows which must be specifically used. At one stop there will be a missing chunk of rock. Here you must place the slate from last step before the glowing circle will appear.
+    Once four circles have been charged with the souls of zombies, the keeper will head downstairs to the pyramid. Enjoy the short break while the keeper travels to the moon, taking the pyramid with it,
+    only to return to earth inside a new pyramid, trapped and corrupted.</string>
+    <string name="des22">Now use the ragnarok to travel inside the pyramid for a boss fight against the corrupted keeper by placing it on the panels that activate anti-gravity. If you do not know how to build the
+    ragnarok, the first piece is obtained by killed a Panzer, the second piece is obtained by activating the death ray and using a jump pad to grab a floating piece in the air, and the third piece is
+    obtained by pulling a lever, then surviving a missile launch at the missile launch zone. Once in the boss fight avoid the boss attacks and whenever you see a ball of energy in the center of the
+    battle arena, run over there and plant the ragnarok. Then start shooting arrows into the boss\' chest. Repeat this until he is defeated.</string>
+    <string name="des23">Once the boss fight is complete, you will return to the pyramid room downstairs. Grab the the orb inside the front of the pyramid and run to the control panel near the tower.
+    Interact with the control panel. Congratulations! Watch as the moon is destroyed by about one hundred missiles and know that it was your doing!</string>
+    <string name="des24">In Zetsubou no Shima, the KT-4 is a weapon that can be crafted by acquiring three different parts and combining them at a workbench. The first part needed is a green test tube, which will be in the possession of a random zombie that will only spawn once the power has been turned on. Just keep an eye out for the test tube when killing zombies, and there should be minimal headache in acquiring it.
+The second item needed to build the KT-4 weapon is a canister of purple spider venom. This canister can be found in Lab A. Go there and use the control panel to lower a cage. Lure a spider into the cage during one of the spider rounds, and then use the control panel to send the cage back up. Venom will be extracted from the spider, and the canister will be ripe for the taking.
+The final item necessary to build the KT-4 is a red plant located deep underwater. Head to the underwater caverns and follow the blue rocks until red plant is found. Now head to the workbench (located in the basement of the bunker) and use it to build the KT-4.</string>
+    <string name="des25">The first part is located at the bottom of the zip line. When you\'re in this area, look on top of the boxes and press the square button. Doing this should give you the part, which we think is a gas filter. Part two is a tube and can be located by the propeller blade trap. If you\'re struggling to find this part, adjust the camera to eye level and you’ll see the tube hanging from the propeller blade. Part three is found in two individual locations near Lab B. One of the locations is on the Element 115 rock. Since the part changes locations your best bet is to press the square button around the rock. The second location is on the boxes located on the catwalk. This part is very difficult to see at the best of times so ensure you have a keen eye. This part is the actual mask.
+After gathering all three parts, find a crafting bench and then assemble the Gas Mask. Once crafted, you\'ll be able to run around the map without being affected by the exploding spores. </string>
+    <string name="des26">Now to build the zombie shield. The first part is in Lab B, the second part is in Lab A, and the third part is on the roof of the bunker. The exact locations of these parts in these areas is random each time.
+With the parts necessary to build the Zombie Shield, head to a workbench and cobble them together.</string>
+    <string name="des27">Head to the ritual site and check out the pillar with the yellow, glowing icons. This pillar has three randomized challenges to complete, which consist of basic tasks like using traps to kill zombies or killing a certain number of zombies underwater. This step of the Easter Egg is pretty simple in that one simply has to complete the challenges as outlined, and then return to the pillar for a reward. Do this three times (when playing in co-op, each player has to complete the challenge) to complete this step of the Easter Egg.</string>
+    <string name="des28">Now visit the ritual site (use the map at the beginning to locate it) to find four black skulls. Each skull has a symbol on it, which corresponds to one of the four altars around Zetsubou no Shima. The altar sites are located at the spawn, at the docks, at the plane wreckage, and in the Communications Center.
+Place each skull at its corresponding altar. Anyone that completed the Shadows of Evil Easter Egg should be able to guess what happens next. Simply stand by the altar and shoot the zombies that spawn. An audio cue will indicate when the skull is ready to return to the ritual site. Repeat the process for the other three skulls.
+This will allow access to an underground area where the Skull of Nan Sapwe is located. Stand near the skull and shoot the ghost-like Keeper creatures that spawn. Another audio cue will signify that the Skull of Nan Sapwe is ready to collect, so pick it up to move on to the next step of the Easter Egg.</string>
+    <string name="des29">First off, go to the bunker, and scan the wall near the purple water using the Skull of Nan Sapwe. A poster will appear on the wall. After that happens, go back to the bunker’s entrance, to the room with the Gobblegum machine. Scan the wall on the left side of this room using the Skull of Nan Sapwe to reveal the generator room.</string>
+    <string name="des30">Now, plant a seed somewhere and water it with blue water, plus give it a shot with the Masamune. Do this for the next three rounds while going after the first two cog pieces (which we’ll explain how to get shortly) needed to repair the generator and gain access to the elevator. It shouldn’t take three rounds to get the first two cog pieces, but it’s a good idea to start this process now as to avoid pushing the game into even higher and more difficult rounds.Whoever has the Anywhere But Here! Gobblegum should use it now. This will teleport everyone to a weird room with a dragon egg in the center. Check the room for the first cog needed to repair the generator.
+Upon returning to the main map, head to Lab A. Go to the zipline, and smash the control panel with the electrified zombie shield. A secret platform will reveal itself about halfway down the zipline. Use the zipline, and then melee when positioned right above the newly revealed platform. The second cog piece will be located here.
+Hopefully at this point, the plant is fully grown, or at least close to it. Again, to grow the plant, water it with blue water and shoot it with the Masamune for three rounds. Once the plant is fully grown, an anti-aircraft round can be harvested from it. Collect the AA shell and take it to the AA gun located at the bunker. Use the AA gun to shoot down the plane that appears every few rounds. If the shot misses, don’t fret; just grow another anti-aircraft round and try again.
+With the plane destroyed, go to wherever it crashed and search the wreckage for the final cog. Take all three cogs to the generator, and insert them to activate the elevator.</string>
+    <string name="des31">To find the giant spider boss, go to Lab A. At the back of Lab A is a blue spiderweb that can’t be cut down with the knife. Shoot it with the KT-4 to destroy the spiderweb, and move through the cavern on the other side to reach the boss. As far as bosses go, the giant spider boss is a bit easier than ones encountered on previously, and anyone that took out George A. Romero in Call of the Dead should have no problem felling the beast.
+The trick to defeating the giant spider boss is to just shoot directly at its mouth with the most powerful weapons available. Once it is dead, examine its body to get the Spider Venom that will be used later to upgrade the KT-4 into the Masamune. Move beyond the giant spider boss to snag a free perk in the form of the Widow’s Wine, which will be useful for completing the rest of the Easter Egg. With the spider venom in our possession, there are only two other items needed to upgrade the KT-4 into the far more powerful Masamune. The next item we’ll want to collect is the blue plant, the process of which can be seen in the video above. Basically, one has to collect rainbow water from the sewer pipes, go to where the red plant was found, scan the wall here to reveal a secret area, plant a seed, and use the rainbow water to water said seed. Do this for three rounds in a row, and a blue plant will grow from the seed. Collect it, and then move on to collecting the skeleton vial.
+The electrified zombie shield will come in handy when it comes to getting the skeleton vial. Return to Lab B and bash the electrified zombie shield on the cage’s control panel. This will allow access into the cage, and into the underground tunnel beyond it. Here the skeletal remains of some unlucky soul will be found, and lodged in the skeleton’s rib cage will be the skeleton vial.
+With the spider venom, blue plant, and skeleton vial, the KT-4 can now be upgraded to the Masamune. Simply take the KT-4 back to the workbench where it was originally built, and there will be an option to upgrade it to the Masamune.</string>
+    <string name="des32">Take the elevator to the bottom and use the Masamune to clear the way to the boss. Like the giant spider boss from earlier, this boss – the Thrasher –  is not all that difficult, but having Juggernog, the Masamune, and other upgraded weapons will certainly make things easier. To start the boss fight, blast the large spore on the Thrasher’s arm.
+To damage the Thrasher, simply shoot the remaining spores on its body with charged Masamune shots. What makes this encounter more difficult, however, is that zombies and spiders will enter the fray in waves. The Thrasher is less likely to down players than those creatures, so they need to be dealt with before worrying too much about dealing more damage to the boss.
+With a little bit of persistence, the Thrasher boss will be defeated. At that point, the ending cut-scene for Zetsubou no Shima will play.</string>
+    <string name="des33">Locate the "Dragon Command" control room that contains the incubator machine and the many green monitors. This is inside the colosseum building with the star on the front and the giant pillars outside. Flick the power switch on - it\'s located at ground level just beside the machine itself. Once the power is on, kill zombies to collect "Code Cylinders". Insert these cylinders into each of the three consoles: Red, Yellow and Blue and defend the pods for around 30 seconds to claim a Network Circuit.
+Repeat the process until you have all three Network Circuits and then insert them into the machine inside the "Operations Bunker".</string>
+    <string name="des34">Climb onto the upper platform inside "Dragon Command" (near the blue console). Wait for a dragon to arrive then board by jumping on to his back. Wait a second for the animation to start at which point you fly out of the main area and are dropped into a bunker location.
+This bunker appears to be a dead end but it\'s just like the Golden Gate Bridge from Mob of the Dead. Head downstairs to the Pack-a-Punch and use this time wisely to upgrade your weapon. While you\'re inside the PaP room, go upstairs and get the crystal to claim the Dragon Strike weapon. The bunker will lockdown so be prepared for a fight while you defend yourself against the oncoming horde and Russian Manglers.
+Once the lockdown is over, head down to the sewer entrance (the one which takes you back to the main area of the map) and stand in front of it. Look up and slightly left - see the dragon egg there? Shoot it to make it roll off, then pick it up. The Dragon Egg should appear in your inventory.</string>
+    <string name="des35">Stay within the PaP building and wait for the Valkyrie drones to appear. Stand close to the generator which is near to the sewer entrance - it has a green cover on top and a green/red control panel on the side.
+Simply kill a drone near the generator to complete this step. The generator should spark and start to hum to signify that you\'ve done this step correctly. If it doesn\'t spark, press square to get things started (or to restart the generator at a later time).
+Take the sewer back to the main area. Next, find the Valve machines which look like a set of tubes with the numbers 1, 2 and 3 on the front. There are several of these around the map. Interact with the machine to rotate the dial so that it points at a particular number. Each time you change the number of a particular dial you are re-directing the pressure in the tube, which in turn affects the next tube in the sequence. The goal is to choose the right sequence of numbers to allow air to flow through all of the tubes, pushing the Cylinder out the other end. Simply start from your green valve and tunnel the air through the tube network so it ends at the valve where your purple Cylinder is. Avoid the air "looping" back up the chain to succeed. </string>
+    <string name="des36">Take the newly acquired dragon egg to a dragons nest which can be found in the spawn area or outside of the Dragon Command entrance. Place the egg in the nest and wait for a dragon to breath fire on the area. Go back to spawn and check your tombstone for new challenges. There are three that you must complete:
+Kill Napalm zombies,
+Get penetrating multi-kills,
+Get melee kills.
+Complete all of these before moving on.</string>
+    <string name="des37">Take the dragon egg to the PaP room and place it in the cylinders under the bunker. Kill zombies in the vicinity to charge the egg, you should see lightning spark from the zombies as they die. After enough kills, try and pick up the egg - you should see a message which says "the egg must cooldown first".
+Complete another round to let the cooldown complete and then pick up the egg. Take the sewer back to the spawn area. The Gauntlet of Siegfried is the new Wonder Weapon for Gorod Krovi and you\'ll need this weapon to send the Power Core to Nikolai\'s location. Now that you have the dragon egg, simply interact with the challenges tombstone to claim the Gauntlet of Siegfried.</string>
+    <string name="des38">The next step of the Easter Egg is to collect 6 trophies/statues that are found in different areas of the map. Some are in plain sight whilst others are revealed by interacting with certain objects.
+Once collected, each of the trophies appears underneath the large monitor on the opposite side of the room to Sophia.
+Trophy locations:
+Use the melee attack from your Gauntlet of Siegfried on the safe inside the Operations Bunker.
+Use the Dragon Strike on the puddle outside of the Supply Depot (where the train is, under Speed Cola).
+Stand in front of Dragon Command facing away from it, shoot the statue (hand or head) high up on the wall. Claim the trophy next to the rubble at ground level on the right side.
+Take the sewer from PaP, shoot the red light in the pipe. Return to the toilet near PaP and pick up the trophy.
+Use the Gigant Lazer Beam trap in Supply Depot. Pick up trophy from floor.
+Use shield\'s dragon fire attack on the outside pipe behind Double Tab (Tank Factory).</string>
+    <string name="des39">Go back to the Sophia machine and take note of the cylinder panel on the left which displays a series of letters. Press square to start the password phase. Now shoot the individual letters to spin each section of the cylinder, eventually lining up a series of letters to form the password.
+The correct password is KRONOS.
+When you\'re ready, press square to "confirm the password".</string>
+    <string name="des40">For the next part of the Easter Egg you will need to complete 6 challenge style trials for Sophia. The first five are presented in random order but the sixth is always the same. To start a trial simply press the green button underneath the large monitor opposite Sophia.
+Here are all six challenges:
+    \n\nTrial 1: Sophia will say two minutes remaining and you now need to sprint, find the bombs and defuse them. There\'s a bomb in each section e.g. Tank Factory, Supply Depot etc. Check the 935 control panels on the walls to see which device is the bomb.
+The order in which you need to defuse the bombs is presented on the large computer monitor. Watch very carefully for the sequence.
+If you successfully defuse the bombs in the right order Sophia will say "self destruct sequence stopped, thankyou for preventing our extermination". Remember, if you can\'t defuse all the bombs in time, stay away from the bomb sections to stay alive by either going to spawn or by riding the dragon.
+   \n\nTrial 2: A yellow spark/orb will appear somewhere on the map. Continuously shoot the orb so it moves and eventually disappears, before reappearing in a different location. Repeat the process many times and wait for Gersh to finish speaking before following his location each time.
+At this point in the game there will be infinite zombies until the orb completely disappears so it\'s a good idea to use Gobble Gums to slow zombies down.
+If done successfully Sophia will say "beginning information extraction" before Gersh screams.
+  \n\nTrial 3: This time she wants you to escort a Russian Mangler back to the teleporter in Dragon Command. Be extra careful not to kill the Mangler as you tempt him back to Sophia.
+It\'s hard to distinguish the Mangler from the many zombies which will be coming at you by this stage, but listen out for him and watch for his green eyes and slow movement which is a giveaway sign.
+  \n\nTrial 4: Similar to the Mangler trial, simply escort the Valkyrie back to the teleporter in Dragon Command without killing it. Again the "friendly" Valkyrie has green lights.
+        \n\nTrial 5: Defend a pod which drops outside the map. Once secured, send over the Whelp (little Gauntlet dragon) to pick up the cargo and bring it back to Sophia.
+        \n\nTrial 6: Obtain the key card from the large monitor opposite Sophia and go to the hatchery (in PaP where you incubated the egg). Insert the card into the computer with red lights and defend the area from Manglers. Once done, return the card to Sophia.</string>
+    <string name="des41">Pull the Power Core out of the right side of Sophia. Dash to spawn, face Nikolai and use the Gauntlet of Siegfried to let the little dragon fella fly off and deliver the Power Core.</string>
+    <string name="des42">Have all players stand on top of the sewer gate (with the red Russian star) in front of Sophia. The gate will open, dropping players down into a new sewer section, eventually throwing them out into a new open area. This is the final BOSS location.
+Nikolai 1.0\'s mech is in a standoff against the mother dragon. Fight along side him to kill this giant beast while you try and survive against the near impossible swarm of zombies and fire that plagues the area.
+After defeating the dragon, Nikolai will turn on you instead. Sprint round the perimeter of the arena, avoiding his attacks by using the corner trench sections. Aim for Nikolai\'s weak yellow spots to take him down.</string>
+    <string name="des43">Right where you spawn, you’ll find the house from the ending of Origins at your back. Nearby, outside the traversable parameters of the opening island, you can spy a cemetery with gravestones. For this step, you’ll need to identify and shoot four specific tombstones in order.
+There are four prominent gravestones you can see — two directly left of the spawn point and two beyond the jump-pad to the Origins area.
+Shoot the graves in this order — Position From Left-To-Right:
+\nEdward Richtofen — 2
+\nTank Dempsey — 3
+\nTakeo Masaki — 1
+\nNikolai Belinski — 4</string>
+    <string name="des44">This part can be tricky. To construct an altar and summon a Keeper Protector, you’ll need to find three craftable parts — each part spawns in one of three locations.
+To craft a Summoning Altar, find one of the strange rock-walls with symbols carved into the side. These are often located near Mystery Box spawns, so check the walls — if you get near one, a prompt will appear. Even if you don’t have the parts, you’ll still get a prompt.
+        \n\nAltar Part #1:
+\nMob of the Dead: The part can spawn in the Cafeteria near the Mule-Kick machine.
+\nOrigins: Through the lower trenches door, look to the sandbags on the right as you move up the hill. Can also be found near through the upper door but before entering the mine shaft that leads to Mob of the Dead.
+\n\nAltar Part #2:
+\nVerruckt: In a wheelchair near the jump-pad connection to Mob of the Dead. Can also spawn on the upper level, at the top of the stairs overlooking the Corruption Altar. Also found on a wheelchair, near a burning wall. Can also be found on some metal shelves on the lower level very close to the door that leads in/out of the Corruption Altar area.
+ \n\nAltar Part #3:
+\nKino der Toten: Found on a round table near the jump-pad connection to Verruckt.
+\nDer Eisendrache: Can spawn on the floating stone ruins near the central pyramid structure in the ruins area connected to the Corruption Altar. Can also be found down the steps in the circular room where the Mystery Box will sometimes spawn. As you enter, look right and check the barrels.</string>
+    <string name="des45">This part can be buggy, but it will require that you summon a Keeper Protector (using the Altar parts listed above) and jump to the strange stone in the jump-pad that appears after shooting the gravestones in the correct order. The triangle-shaped stone is hard to spot, and appears behind the jump-pad’s blue energy — but it will only appear at ONE jump-pad.
+The Keeper Protector will only begin the stone ritual if you jump TO the jump-pad where the stone first spawned. It won’t do anything otherwise. Getting the Keeper Protector to begin the ritual is, currently, a very annoying process and this AI ally really doesn’t like doing the ritual.
+The Keeper Protector will follow / teleport anywhere you go on the map, so after using a jump-pad, the Keeper Protector will teleport to you. Aim to get the Keeper to teleport to the blue-glowing jump-pad with the stone to begin the ritual.
+Once the rituals begins, ALL ZOMBIES will target the Keeper Protector. The ritual lasts a solid 3 minutes, so be prepared to defend him until the ritual is over.
+When the ritual is complete, an audio reel will appear on the ritual site. Collect the audio reel and find the radio in the Nacht der Untoten area. The radio is located opposite the second-floor tesla switch used to capture the Apothicon.</string>
+    <string name="des46">First of all, you’ll have to enter the massive Apothicon monster that’s flying around the stage. Once you’re inside that monster’s gooey insides, you’ll need to collect a L’il Arnie wonderweapon. They can only be found as a random drop from the Mystery Box. Locate a Mystery Box by following the massive green beam of light to the source. Each Mystery Box purchase costs 950 points. This step does NOT require an upgraded L’il Arnie.
+Get inside the Apothicon, get your L’il Arnie throwable, and find something the community are calling “Spawn-Holes” inside the Pack-a-Punch chamber. These are the holes where zombies will spawn into the map — there are 9 holes total.
+Throw L’il Arnies into all 9 “Spawn-Holes” — 3 at a time.
+“Spawn-Holes” are the holes in the walls of the  Apothicon interior that spew green gas as zombies spawn in.
+ After 3 L’il Arnies are successfully thrown into “Spawn-Holes”…
+3 Margwa bosses will spawn.
+Successfully spawn 3 rounds of Margwa bosses (Killing 9 in total) to complete this step.
+Go into the Apothicon prepared to kill Margwa bosses. Three at once is a pretty tough fight. Don’t forget the Pack-a-Punch machine is located inside the Apothicon chamber. Just shoot the yellow glowing bulbs in the tendrils to free the machine.
+After 9 Margwa bosses are killed, a special audio reel will appear on the bridge in the center of the Apothicon interior. It appears on one of the yellow tendril bulbs next to the bridge, similar to the tendrils holding up the Pack-a-Punch.
+Once complete, an audio reel will spawn on the bridge inside the Apothicon — on the area that looks like yellow pustules with skeletons on/around.
+Collect the audio reel and deliver it to the radio in the Kino der Toten area — the radio is opposite the Apothicon standee on the stage. Interact with the radio after taking the audio reel to complete this step.</string>
+    <string name="des47">Here, you’ll need to acquire the Apothicon Servant Wonderweapon, then activate a secret upgrade (called the Estoom-Oth) by shooting strange objects in the sky. Once again, the Apothicon Servant will only spawn at the Mystery Box. Each Mystery Box random roll costs 950 points.
+
+Let’s go over the path to upgrading the Apothicon Servant and getting the Estoom-Oth:
+
+Override all four Corruption Engines before attempting to upgrade the Apothicon Servant.
+We’ve already done that, but if you get the Apothicon Servant early, it helps to know that this step can’t be completed until after you’ve freed the Pack-a-Punch machine.
+Next, shoot five glowing Element-115 cubes floating in the sky with the Apothicon Servant.
+Spawn Area: Floating above the spawn island, toward the Corruption Engine location.
+Shangri-La: Above the steps into the pyramid-like temple, slightly left when facing the steps.
+Verruckt: Located above the jump-pad that leads to the Mob of the Dead cafeteria.
+Mob of the Dead: Found above the Corruption Engine area, toward the glowing “sun” in the background.
+Verruckt: Above and right of the portal to Nacht Der Untoten.
+After shooting a cube, the HUD will alter slightly and the target will disappear.
+It may take several seconds after shooting the target.
+Return to the Pack-a-Punch and feed the Apothicon Servant to the machine to upgrade it.
+The Pack-a-Punch should feature all five Element-115 crystals before you can upgrade the Apothicon Servant.
+Now that you’ve unlocked the upgraded Apothicon Servant Wonderweapon, it’s time to get this step on the road for real. The real goal here is to collect 6 skeleton parts. The skeleton parts can be collected in any order.
+
+Spawn-Area: Look right of the Corruption Engine area and scan the church for a small opening that reveals the glowing stone slab target. Shoot it with a P-a-P gun, then blast the skeleton part with the Estoom-Oth.
+Shangri-La: Find the stone slab above the centrally-located Stamin-Up machine. Remember, shoot the rock with an upgraded (Pack-a-Punch) gun, then shoot the skull that appears with the Estoom-Oth.
+Origins: As you enter origins, open the doors to the trenches near the generator and look right into the inaccessible fields. There’s a fire here, and to the right of the fire, there’s a stone slab to shoot.
+Verruckt: Go to the Corruption Engine area and look toward the portal to Nacht. Turn left to face the waterfall — the stone is very close to the water, just barely peaking out over the falls / grassy patch.
+Nach der Untoten: Find the stone ramp leading up to the second floor near the Der Eisendrache portal. Face the portal (after clearing the floating debris) and look at the top of the ruined concrete ceiling. The stone slab is attached to the top — it can be tricky to spot, but it’s there on the edge of the wrecked ceiling.
+Der Eisendrache: Activate the low-gravity field by standing on the four glowing panels surrounding the pyramid near the Corruption Engine location. To activate low-gravity, you’ll need to stand on the panels until they click into place. This takes several seconds. Once low-gravity is activated, a blue glow will envelope the ruins area. In the pyramid room, look for an opening that leads outside the normal map — there’s a wall-running path you can reach. The stone / skeleton part is found on the third wall on the wall-run course.
+That isn’t all. There’s still one major step to complete.
+
+Return to Nacht der Untoten and you’ll find a pile of bones near the radio (the same radio you inserted the first audio reel) — shoot the pile of bones with your Estoom-Oth.
+Sophia’s zombified body will appear on the ground. Shoot it with the Estoom-Oth again!
+Finally, you’ll gain the third audio reel. Take this to the wooden desk at the top of the hill in Origins — this is also at the top of the mine shaft that leads down into Mob of the Dead.</string>
+    <string name="des48">After overriding the Corruption Engines, these devices will change functions — using them again will turn the former Engines into Turrets. This step is when things get weird, but it’s also fairly simple to complete. Now, for some explanation…
+
+If you played Gorod Krovi, you’ll remember the S.O.P.H.I.A. computer. She makes an appearance here in Revelations — after shooting all those bones in the previous step, S.O.P.H.I.A. attempts to enter this dimension. But, she isn’t quite complete. She’s a shining blue/green light, floating above Nacht der Untoten. Let’s try and fix her up.
+
+Go to all four Corruption Turrets and activate them, one at a time — they’ll continue to shoot once they target the glowing energy orbs above. Aim at the blue spinning orbs at each location.
+If you successfully target a S.O.P.H.I.A. orb, you’ll instantly exit the turret.
+After a turret targets the blue orbs, it will continue to shoot until this step is completed. Get all four turrets to target the sky-energy and we’re moving on to Kino der Toten.
+
+The wad of energy that is S.O.P.H.I.A. materializes and flies off to the Kino der Toten stage. You might’ve noticed the large teleportation pod on the stage, to the left of the podium — watch the pod. It’ll charge up and give you a short activation window. You’ll only get one chance to teleport per round.
+
+To activate the teleporter, hold the interact button [Square / X] with all other players. Everyone has to do it together.
+Once you’ve successfully teleported, you’ll appear in a bedroom inside The House. You know, THE HOUSE, the one at the spawn area that appeared in the bonkers Origins ending.
+
+What To Do After Teleporting: In the bedroom, interact with the bed to collect the Kronorium.
+Returning to Kino der Toten, there’s one final step to complete before facing off with the Shadowman.</string>
+    <string name="des49">Back in Kino der Toten, interact with the podium on the stage to place the Kronorium. Doing so causes a strange ritual to begin — you’ll find the glowing ritual spot inside the projector room opposite the main stage. If you study the ritual, you’ll see there are four runes you’ll need to light-up.
+
+To gain a rune, you’ll need to find four Apothicon eggs. These strange eggs spawn in random locations — one on each of the four island-areas. They only spawn one at a time, so you’ll have to check the following areas thoroughly.
+
+Apothicon Egg Spawn Zones:
+Spawn-Area
+Origins
+Verruckt
+Kino Der Toten
+After collecting one egg, follow the steps below — repeat this process for each egg you find.
+
+Place the egg inside the Apothicon
+Look near the large eggs and find missing incubation spots. This is where you’ll want to place the Apothicon eggs. They’re beneath the larger wall-embedded eggs. The spot features multiple tendrils pointing straight up, with a “seat” for the egg between the tendrils.
+The egg will get sucked in and reveal a glowing soul. Feed the soul.
+Like in previous Zombies map, killing zombies near a glowing “soul” object will feed it.
+Kill 15 zombies (or any other any type) near the glowing soul.
+A gateworm will spawn — use it to find an invisible rune location.
+The gateworm functions like a SONAR. Listen for the rapid pings to find the rune location.
+Once you find a rune location, interact to collect it. You’ll need to complete this process for all four eggs! Here are some of the basic locations for each rune you’ll need to collect:
+
+Rune Spawn Locations:
+Spawn-Area
+Near the Corruption Engine area
+Near the Origins jump-pad
+Near the Quick Revive
+Next to the trashcan next to the stairs opposite the Shangri-La jump-pad
+Origins
+In the trenches opposite Generator 3
+Der Eisendrache
+Pack-a-Punch room, near the Primus statue
+Mob of the Dead
+Against the wall opposite the Corruption Engine
+Verruckt
+Inside the mystery box room
+It’s tough, but we’re almost done.</string>
+    <string name="des50">Return to the ritual site in the projector room of Kino der Toten to initiate the final battle. Each player needs to stand on the glowing runes — interact at the same time to teleport.
+
+You’ll appear in a twisted version of the theater as a massive Apothicon monstrosity looms over the arena. Your main goal here is to stay alive, don’t panic, and try to check out the Kronorium. The Kronorium is the key to defeating the Shadow Man!
+
+How to Start the Final Boss: Interact with the Kronorium — it will display a series of 4 runes. Interact with the runes in the same order that the Kronorium displays them — think of it like ‘Simon Says’.
+Go to the opposite side of the chamber to find a floating rune. Wait for it to switch to the correct symbols and interact in the order shown in the book to initiate the boss fight proper.
+
+Sequence #1: Fire Everywhere
+Go to the upper level to avoid the growing magma pool. Focus on killing the Margwa quickly.
+Sequence #2: Lightning Storm
+Continue moving to avoid tracking lightning blasts. Focus on killing the Margwa bosses, again.
+Sequence #3: Caged In
+Avoid getting walled into a tight area as barriers spawn all over the arena. Kill the Margwa bosses to complete this step.
+Sequence #4: Damage Everywhere
+Anti-gravity will activate and damaging energy will surge through the ground. Only stand under the spotlights to avoid the energy — jump between them to avoid getting swarmed. Call all the Margwa bosses during this phase, too.
+Complete all four sequences, and the Summoning Key will spawn in the center of the arena. Only one player can collect this item, but when they do, they’ll teleport straight back to Kino der Toten.</string>
+    <string name="des51">The Summoning Key takes up one weapon slot, and can be thrown. Here, you’ll need to locate 7 special spots and throw the Summoning Key at the object. These locations are always the same, and can be completed in any order.
+
+Summoning Key Target Locations:
+Mob of the Dead: Look at the cells from the bridge on the wall opposite the Corruption Engine. Throw the Summoning Key at the poster inside one of the open cells.
+Verruckt: Looking toward the Corruption Engine, look left to spot a fountain with a machine gun mounted on top. Throw the key at the gun on the fountain.
+Shangri-La: To the left of the stairs leading up to the top of the temple, look left — there’s a Keeper statue, but further left there is a bright blue orb on a staff. Throw the key at this object.
+Origins: Go to the top of the hill in Origins (where the entrance down into Mob of the Dead is located) and look for a gravestone at about eye-level on a wooden catwalk.
+Der Eisendrache: Throw the key at the clocktower face visible just over the ceiling ruins when looking up from the Corruption Engine area, near the portal to Nacht der Untoten.
+Nacht Der Untoten: Go to the lower-level wall with a view of a crashed truck in the background. To the right of the truck is a red barrel. Hit the red barrel.
+The final spot to throw is here:
+
+Final Target:
+Kino der Toten: Hit the huge chandelier hanging above the seating area.
+Now it’s time to return to the boss room. Step through the teleporter, interact all at the same time, and prepare to finally complete this thing.</string>
+    <string name="des52">The final battle begins here. The Shadow Man appears. Time to take him down.
+
+Place the Summoning Key on one of the glowing green holders on the upper level walkways.
+Placing the Summoning Key will remove it from your inventory.
+Charge the Summoning Key embedded in the holder.
+Kill zombies (or any other enemy) near the Summoning Key location.
+Continue to kill enemies until the Summoning Key begins to glow yellow.
+Throw the charged Summoning Key into the ghostly image of S.O.P.H.I.A.
+This removes the Shadow Man’s shield.
+Now you can damage the Shadow Man! Shoot him with everything you’ve got.
+The Shadow Man will disappear / reappear randomly.
+Continue shooting until the Shadow Man is trapped in the Apothicon’s mouth.
+Once the Shadow Man is in the Apothicon’s man, quickly interact with the Kronorium.
+You don’t have much time before the Shadow Man teleports out. Interact with the Kronorium right as the Shadow Man appears inside the Apothicon’s open maw.
+And that’s it! </string>
+
+</resources>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        #filedropzone
+        {
+            font-weight: bold;
+            text-align: center;
+            padding: 1em 0;
+            margin: 1em 0;
+            color: #555;
+            border: 2px dashed #555;
+            border-radius: 7px;
+            cursor: default;
+        }
+
+        #filedropzone.hover
+        {
+            color: #f00;
+            border-color: #f00;
+            border-style: solid;
+            box-shadow: inset 0 3px 4px #888;
+        }
+    </style>
+    
+    <script>
+        // Check if the document is fully loaded
+        window.addEventListener('load', Init);
+
+        // Initialize
+        function Init() {
+            var filedropzone = document.getElementById("filedropzone");  // The div element as a drop zone
+
+            // File drag and drop - div
+            filedropzone.addEventListener("dragover", FileDragOver, false);
+            filedropzone.addEventListener("dragleave", FileDragLeave, false);
+            filedropzone.addEventListener("drop", FileSelectHandlerDropZone, false);
+        }
+
+        // File drag hover
+        function FileDragOver(e) {
+			e.stopPropagation();
+            e.preventDefault();
+            e.target.className = "hover";
+        }
+
+        function FileDragLeave(e) {
+            e.target.className = "";
+        }
+
+        // File drop
+        function FileSelectHandlerDropZone(e) {
+
+            // Cancel event and hover styling
+            FileDragLeave(e);
+			e.preventDefault();
+
+            // Assign the files to the input element with id=fileselect so that they can be submitted.
+            //   Remember that event.dataTransfer includes the data to be transferred to the drop zone.
+            document.getElementById("fileselect").files = e.dataTransfer.files;  
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Test File Uploading</h2>
+
+    <form action="file_uploading.php" method="POST" enctype="multipart/form-data">
+        <fieldset style="width:300px">
+            <legend>File Uploading</legend>
+            
+            <label for="fileselect">Files to upload:</label>
+            <input type="file" id="fileselect" name="fileToUpload[]" multiple>
+            <br>
+            
+            <div id="filedropzone">or drag files and drop them here</div>
+            
+            <button type="submit">Upload files</button>
+        </fieldset>
+    </form>
+</body>
+</html>

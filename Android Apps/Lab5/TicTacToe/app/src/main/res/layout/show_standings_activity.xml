@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t00229613.tictactoe.ShowStandingsActivity"
+    android:background="@drawable/bgaddname"
+    android:orientation="vertical">
+    <!-- Background taken from http://hdwallpaperbackgrounds.net/white-background/ -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/listview"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/back"
+            android:id="@+id/buttonback"
+            android:layout_weight="1"
+            android:background="@drawable/button_select" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Test Server-Sent Event</title>
+    <script>
+        var sse;
+        
+        function start_sse()  // Start button
+        {
+            var message_to_server = document.getElementById('data').value;
+            var uri = 'sse_server.php' + '?' + 'message=' + message_to_server;  // You need to decide the name of the data to send
+                                                                   // You may change the name of the PHP program.
+            sse = new EventSource(uri);  // Create an SSE object
+
+            // On this default event, you can get data from the server, and display the data.
+            sse.onmessage = function(event_obj) {
+                document.getElementById('msg').innerHTML += event_obj.data;
+            }
+            
+            // On this user defined SSE event, you can get data from the server, and display the data.
+            // The same name of this user defined event name should be used in the PHP script.
+            sse.addEventListener('newevent', function(event_obj) {  
+                document.getElementById('msg').innerHTML += event_obj.data + ': sent using a user defined SSE event';
+            });
+            
+            // Disable the start button, and enable the stop button
+            document.getElementById('start').disabled = true;
+            document.getElementById('stop').disabled = false;
+        }
+        
+        function stop_sse()  // Stop button
+        {
+            sse.close();  // Close the SSE connection
+            
+            // Enable the start button, and disable the stop button
+            document.getElementById('start').disabled = false;
+            document.getElementById('stop').disabled = true;
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Test Server-Sent Event</h2>
+
+    <label>The message to send to the server: </label><input id='data'></input>
+    <button id='start' onclick="start_sse()">Start SSE</button>
+    <button id='stop' onclick="stop_sse()" disabled>Stop SSE</button>
+
+    <p>The message pushed from the server program will be displayed below.</p>
+    <p id='msg' style='background-color: #E0E0E0; height: 600px; overflow-y: auto;'></p>
+</body>
+</html>

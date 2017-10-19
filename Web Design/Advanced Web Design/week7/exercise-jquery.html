@@ -1,0 +1,149 @@
+<!document html>
+
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+        <h1 style='text-align: center'>Exercise - jQuery</h1>
+        <br>
+
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="BlackColor">BlackColor</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="BlackStrip">BlackStrip</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="ChewCud" checked>ChewCud</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Claw">Claw</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="DarkSpot" checked>DarkSpot</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="EatMeat">EatMeat</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Feather">Feather</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="ForwardPointingEye">ForwardPointingEye</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Fly">Fly</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="FlyWell">FlyWell</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Hair" checked>Hair</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Hoof">Hoof</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="LayEgg">LayEgg</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="LongLeg" checked>LongLeg</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="LongNeck" checked>LongNeck</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Milk">Milk</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="NotFly">NotFly</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="PointedTooth">PointedTooth</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="Swim">Swim</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="TawnyColor" checked>TawnyColor</label></div>
+        <div class='checkbox-inline'><input type="checkbox" name='property' value="WhiteColor">WhiteColor</label></div>
+
+        <br>
+        <br>
+        <div style='margin:auto; text-align:center'><button id='find-animal' type="button" class="btn btn-primary">Find what animal is</button></div>
+        <br>
+        <br>
+        
+        <div class='form-group'>
+            <select id='auto-makers' class='form-control' multiple>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Ford">Ford</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Dodge">Dodge</option>
+                <option value="VW">VW</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Honda">Honda</option>
+                <option value="Kia">Kia</option>
+                <option value="Chevy">Chevy</option>
+            </select>
+        </div>
+        
+        <br>
+        <div style='margin:auto; text-align:center'><button id='list-makers' type="button" class="btn btn-primary">List selected car makers!</button></div>
+        <br>
+        <br>
+        
+        <div id='msg-pane'></div>
+    </div>
+</body>
+
+<script>
+    function print(msg) {
+        document.getElementById('msg-pane').innerHTML += msg;
+    }
+
+    function println(msg) {
+        document.getElementById('msg-pane').innerHTML += msg + '<br>';
+    }
+
+    function clear() {
+        document.getElementById('msg-pane').innerHTML = '';
+    }
+</script>
+
+<script>
+    //
+    //  Exercise - jQuery
+    //
+    var queue = [];
+    
+    // When the document is fully loaded,
+    //   when the button with id='find-animal' is clicked,
+    //   select all checked inputs with the attribute name='property', and get their values and print them.
+    //   Hint - [attribute_name='...'], :checked, input
+    $(document).ready(function() {
+        $("#find-animal").click(function() {
+            queue = [];
+            $("input[name='property']:checked").each(function() {  // for each of selected inputs that are selected           
+			 
+			 queue.push($(this).val());  // push the value into queue
+            });
+
+            println('Properties are ' + queue.join(', ') + '.<br>');  // join() makes a sting from an array
+        });
+    });
+
+    // When the document is fully loaded,
+    //   when the button with id='list-makers' is clicked,
+    //   select all selected options within a <select> with id='auto-makers', and get their values and print them.
+    //   Hint - :selected, option, ...
+    $(document).ready(function() {
+        $("#list-makers").click(function() {
+            queue = [];
+            $("#auto-makers option:selected").each(function() {  // for each of selected inputs that are selected     
+                queue.push($(this).val());
+            });
+
+            println('Makers are ' + queue.join(', ') + '.<br>');
+        });
+    });
+    
+    //
+    // Exercise - JavaScript, jQuery
+    //
+    
+    // Create an object of 'VW', 'Golf', 2010, and 'Silver' with proper property names.
+	
+    var car = {Make : 'VW', Model : 'Golf', Year : '2010', Color : 'Silver'};
+	
+    // Add a propery, print, that is a function that returns a string of all the property values with their names.
+    function print(){
+		var result = [];
+		$.each(car, function(key, value){
+			result.push('<br>' + key + ": " + value);
+		});
+		println(result.join(', '));
+		return result;
+	}
+  
+    // Select the <div> with id='msg-pane', and display the car using the above function into the <div>.
+    $("div #msg-pane").display(print());
+    
+    // See what happens with the following line
+    alert(window.car.print());  // the function in car, which is addedd in the above
+								// global variables are properties in window.
+
+</script>
+
+</html>

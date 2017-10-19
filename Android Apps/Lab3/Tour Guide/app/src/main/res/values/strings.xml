@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string-array name="cities">
+        <item>1.\u0009\u0009 Calgary</item>
+        <item>2.\u0009\u0009 Victoria</item>
+        <item>3.\u0009\u0009 Vancouver</item>
+        <item>4.\u0009\u0009 Toronto</item>
+        <item>5.\u0009\u0009 Kamloops</item>
+    </string-array>
+
+    <!-- descriptions taken from:
+    https://en.wikipedia.org/wiki/Calgary
+    https://en.wikipedia.org/wiki/Victoria,_British_Columbia
+    https://en.wikipedia.org/wiki/Vancouver
+    https://en.wikipedia.org/wiki/Toronto
+    https://en.wikipedia.org/wiki/Kamloops -->
+
+    <string-array name="description">
+        <item>Calgary, a cosmopolitan Alberta city with numerous skyscrapers, owes its rapid growth to its status as the centre of Canada’s oil industry. However, it’s still steeped in the western culture that earned it the nickname “Cowtown,” evident in the Calgary Stampede, its massive July rodeo and festival that grew out of the farming exhibitions once presented here.</item>
+        <item>Victoria, capital of British Columbia, sits on the craggy southern end of Vancouver Island. With abundant parkland, it\’s known for outdoor activities. The city\'s British colonial past shows in its Victorian architecture, including stately Craigdarroch Castle mansion. Butchart Gardens, with 55 acres of vivid floral displays, plus statuary, water features and a carousel, is one of many formal gardens in the city.</item>
+        <item>Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists, while the Museum of Anthropology houses preeminent First Nations collections.﻿</item>
+        <item>Toronto, the capital of the province of Ontario, is a major Canadian city along Lake Ontario\’s northwestern shore. It\'s a dynamic metropolis with a core of soaring skyscrapers, all dwarfed by the iconic CN Tower. Toronto also has many green spaces, from the orderly oval of Queen\’s Park to 400-acre High Park and its trails, sports facilities and zoo.</item>
+        <item>Kamloops is a city in British Columbia, where the North and South Thompson rivers meet. Sun Peaks Resort’s hiking trails, bike park and numerous ski runs lie to the northeast. Cougars and bears inhabit the British Columbia Wildlife Park east of town. West, clay spires tower above Kamloops Lake. The riverside Secwepemc Museum and Heritage Park features the remains of a 2,000-year-old village.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to the Tour Guide App. Click on any of the cities above to see a description.</string>
+</resources>

@@ -1,0 +1,249 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t00229613.calculator.Fragment2"
+    android:orientation="vertical">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/MC"
+            android:id="@+id/button01"
+            android:layout_weight="1"
+            android:background="@drawable/memory_select" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/MR"
+            android:id="@+id/button02"
+            android:layout_weight="1"
+            android:background="@drawable/memory_select" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Mp"
+            android:id="@+id/button03"
+            android:layout_weight="1"
+            android:background="@drawable/memory_select" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Mm"
+            android:id="@+id/button04"
+            android:layout_weight="1"
+            android:background="@drawable/memory_select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/back"
+            android:id="@+id/button05"
+            android:layout_weight="2"
+            android:background="@drawable/other_select" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/sign"
+            android:id="@+id/button06"
+            android:layout_weight="1"
+            android:background="@drawable/other_select" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/divide"
+            android:id="@+id/button07"
+            android:layout_weight="1"
+            android:background="@drawable/calc_select"
+            android:allowUndo="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/one"
+            android:id="@+id/button08"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/two"
+            android:id="@+id/button09"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/three"
+            android:id="@+id/button10"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/times"
+            android:id="@+id/button11"
+            android:layout_weight="1"
+            android:background="@drawable/calc_select"
+            android:allowUndo="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/four"
+            android:id="@+id/button12"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/five"
+            android:id="@+id/button13"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/six"
+            android:id="@+id/button14"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/minus"
+            android:id="@+id/button15"
+            android:layout_weight="1"
+            android:background="@drawable/calc_select"
+            android:allowUndo="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/seven"
+            android:id="@+id/button16"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/eight"
+            android:id="@+id/button17"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nine"
+            android:id="@+id/button18"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/plus"
+            android:id="@+id/button19"
+            android:layout_weight="1"
+            android:background="@drawable/calc_select"
+            android:allowUndo="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/zero"
+            android:id="@+id/button20"
+            android:layout_weight="2"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/dot"
+            android:id="@+id/button21"
+            android:layout_weight="1"
+            android:background="@drawable/numbers_select"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/equal"
+            android:id="@+id/button22"
+            android:layout_weight="1"
+            android:background="@drawable/calc_select"
+            android:allowUndo="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
