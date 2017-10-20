@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grass">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.15">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/setup"
+            android:textSize="@dimen/title_text_size"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/textView_setup"
+            android:textColor="#b29647"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.15">
+
+        <TextView
+            android:text="@string/details"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_details"
+            android:textSize="@dimen/setup_text_size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textStyle="normal|bold"
+            android:textColor="#bba35d"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5" />
+
+        <ImageButton
+            android:layout_width="@dimen/medium_text_size"
+            android:layout_height="@dimen/medium_text_size"
+            app:srcCompat="@android:drawable/ic_dialog_info"
+            android:id="@+id/imageButton_info"
+            android:background="#00ffffff"
+            android:tint="#bba35d" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:background="#ebb19e63"
+            android:layout_gravity="center">
+        <Spinner
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_weight="0.65"
+            android:layout_width="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:text="@string/or"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:layout_weight="1.4"
+            android:textSize="@dimen/setup_button_text_size"
+            android:textColor="#bba35d"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:textStyle="normal|bold"
+            android:gravity="center"/>
+
+        <Button
+            android:text="@string/new_sc"
+            android:layout_height="match_parent"
+            android:id="@+id/button_template"
+            android:layout_weight="1.15"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_select"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/setup_button_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.15">
+
+        <TextView
+            android:text="@string/players"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_players"
+            android:textSize="@dimen/setup_text_size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textColor="#bba35d"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ebb19e63">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.11">
+
+        <Button
+            android:text="@string/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_cancel"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:text="@string/cont"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_continue"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>

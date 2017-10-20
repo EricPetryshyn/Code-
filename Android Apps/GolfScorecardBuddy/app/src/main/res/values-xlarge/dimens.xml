@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">80sp</dimen>
+    <dimen name="text_size">48sp</dimen>
+    <dimen name="medium_text_size">64sp</dimen>
+    <dimen name="setup_text_size">56sp</dimen>
+    <dimen name="setup_button_text_size">36sp</dimen>
+    <dimen name="layout_size">120sp</dimen>
+    <dimen name="layout_word_size">180sp</dimen>
+    <dimen name="layout_slot1_size">210sp</dimen>
+    <dimen name="layout_button_size">156sp</dimen>
+    <dimen name="plus_size">128sp</dimen>
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:background="@drawable/grass2">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/title_text_size"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:textColor="#b29647"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Button
+                android:text="@string/scorecards"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button_scorecard"
+                android:layout_marginLeft="30sp"
+                android:layout_above="@+id/button_teetimes"
+                android:layout_alignLeft="@+id/button_teetimes"
+                android:layout_alignStart="@+id/button_teetimes"
+                android:textSize="@dimen/text_size"
+                android:background="@drawable/button_select"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Button
+                android:text="@string/teetimes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button_teetimes"
+                android:layout_marginRight="15sp"
+                android:layout_marginLeft="15sp"
+                android:textSize="@dimen/text_size"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_select"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Button
+                android:text="@string/handicap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button_handicap"
+                android:layout_marginRight="30sp"
+                android:textSize="@dimen/text_size"
+                android:layout_below="@+id/button_teetimes"
+                android:layout_alignRight="@+id/button_scorecard"
+                android:layout_alignEnd="@+id/button_scorecard"
+                android:background="@drawable/button_select"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:layout_weight="2.7">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/golfball"
+            android:id="@+id/imageView_golf_ball"
+            android:layout_gravity="left"
+            android:layout_weight="1" />
+
+        <ImageButton
+        android:text="Button"
+        android:layout_width="@dimen/layout_button_size"
+        android:layout_height="60dp"
+        android:id="@+id/button_settings"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:background="@drawable/settings_cog" />
+    </LinearLayout>
+
+</LinearLayout>

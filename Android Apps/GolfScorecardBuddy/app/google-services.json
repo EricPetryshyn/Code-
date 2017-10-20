@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142648251533",
+    "firebase_url": "https://golfscorecardbuddy-ec5b2.firebaseio.com",
+    "project_id": "golfscorecardbuddy-ec5b2",
+    "storage_bucket": "golfscorecardbuddy-ec5b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142648251533:android:af4d1a572454558a",
+        "android_client_info": {
+          "package_name": "com.ep.eric.golfscorecardbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142648251533-buc57jlse9eqd6i2nhrvboua5v0t753h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ep.eric.golfscorecardbuddy",
+            "certificate_hash": "5a96c87fc66b8480e8eb0391a29b9699a3ee91a3"
+          }
+        },
+        {
+          "client_id": "142648251533-f2h9d8un8i17gfj9la2v5755tmarreim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmkRzMl1QbMSRHaI7mSX8XI4xwyKO-wM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142648251533-f2h9d8un8i17gfj9la2v5755tmarreim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
