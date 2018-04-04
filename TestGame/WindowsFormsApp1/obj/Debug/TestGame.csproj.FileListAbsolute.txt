@@ -1,0 +1,11 @@
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestGame.csprojResolveAssemblyReference.cache
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestGame.csproj.GenerateResource.cache
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestGame.csproj.CoreCompileInputs.cache
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\mushroom.png
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Eric\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\apple.png
